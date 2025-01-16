@@ -1,0 +1,134 @@
+﻿  Bullet.cpp
+  Game.cpp
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.h(24,25): error C2059: syntax error: '>'
+  (compiling source file 'Bullet.cpp')
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.h(24,44): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Bullet.cpp')
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Bullet.cpp(15,14): error C2065: 'entities': undeclared identifier
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Bullet.cpp(15,9): error C2672: 'std::find': no matching overloaded function found
+      E:\Visual Studio 2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(6048,31):
+      could be '_InIt std::find(_InIt,const _InIt,const _Ty &)'
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Bullet.cpp(26,29): error C2065: 'polygon': undeclared identifier
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Bullet.cpp(25,17): error C2660: 'physics::intersects': function does not take 1 arguments
+      C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Physics.h(6,7):
+      see declaration of 'physics::intersects'
+      C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Bullet.cpp(25,17):
+      while trying to match the argument list '(sf::Vector2f)'
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Bullet.cpp(29,16): error C2065: 'entities': undeclared identifier
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Bullet.cpp(29,11): error C2672: 'std::find': no matching overloaded function found
+      E:\Visual Studio 2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(6048,31):
+      could be '_InIt std::find(_InIt,const _InIt,const _Ty &)'
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.h(24,25): error C2059: syntax error: '>'
+  (compiling source file 'Game.cpp')
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.h(24,44): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Game.cpp')
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(10,23): error C2039: 'shootSoundBuffer': is not a member of 'Game'
+      C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.h(9,7):
+      see declaration of 'Game'
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(16,7): error C2039: 'State': is not a member of 'Game'
+      C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.h(9,7):
+      see declaration of 'Game'
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(16,19): error C2143: syntax error: missing ';' before 'Game::state'
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(16,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(16,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(16,19): error C2371: 'state': redefinition; different basic types
+      C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.h(43,53):
+      see declaration of 'state'
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(24,16): error C2371: 'highScore': redefinition; different basic types
+      C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(14,14):
+      see declaration of 'highScore'
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(35,8): error C2039: 'is_close': is not a member of 'std::basic_ifstream<char,std::char_traits<char>>'
+      E:\Visual Studio 2022\Community\VC\Tools\MSVC\14.42.34433\include\fstream(23,7):
+      see declaration of 'std::basic_ifstream<char,std::char_traits<char>>'
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(95,35): error C2589: '(': illegal token on right side of '::'
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(95,50): error C2761: 'sf::Keyboard::Key Enter': redeclaration of member is not allowed
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(95,55): error C2059: syntax error: ')'
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(95,56): error C2059: syntax error: ')'
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(95,58): error C2143: syntax error: missing ';' before '{'
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.cpp(99,2): error C1506: unrecoverable block scoping error
+  Main.cpp
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.h(24,25): error C2059: syntax error: '>'
+  (compiling source file 'Main.cpp')
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.h(24,44): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Main.cpp')
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Main.cpp(17,11): error C3867: 'sf::Window::close': non-standard syntax; use '&' to create a pointer to member
+  Physics.cpp
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Physics.cpp(27,15): error C2244: 'intersects': unable to match function definition to an existing declaration
+      C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Physics.cpp(27,15):
+      see declaration of 'intersects'
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Physics.cpp(69,25): error C2065: 'n': undeclared identifier
+  Asteroid.cpp
+  Player.cpp
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.h(24,25): error C2059: syntax error: '>'
+  (compiling source file 'Player.cpp')
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Game.h(24,44): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Player.cpp')
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(36,19): error C2672: 'std::min': no matching overloaded function found
+      E:\Visual Studio 2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(109,26):
+      could be '_Ty std::min(std::initializer_list<_Elem>)'
+          C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(36,19):
+          '_Ty std::min(std::initializer_list<_Elem>)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'const _Ty'
+          with
+          [
+              _Ty=float
+          ]
+      E:\Visual Studio 2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(106,26):
+      or       '_Ty std::min(std::initializer_list<_Elem>,_Pr)'
+          C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(36,19):
+          '_Ty std::min(std::initializer_list<_Elem>,_Pr)': expects 2 arguments - 1 provided
+      E:\Visual Studio 2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(98,6):
+      or       'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)'
+          C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(36,19):
+          'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': expects 2 arguments - 1 provided
+      E:\Visual Studio 2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(88,33):
+      or       'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)'
+          C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(36,19):
+          'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 1 provided
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(37,34): error C2059: syntax error: ')'
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(38,21): error C2672: 'std::min': no matching overloaded function found
+      E:\Visual Studio 2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(109,26):
+      could be '_Ty std::min(std::initializer_list<_Elem>)'
+          C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(38,21):
+          '_Ty std::min(std::initializer_list<_Elem>)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'const _Ty'
+          with
+          [
+              _Ty=float
+          ]
+      E:\Visual Studio 2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(106,26):
+      or       '_Ty std::min(std::initializer_list<_Elem>,_Pr)'
+          C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(38,21):
+          '_Ty std::min(std::initializer_list<_Elem>,_Pr)': expects 2 arguments - 1 provided
+      E:\Visual Studio 2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(98,6):
+      or       'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)'
+          C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(38,21):
+          'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': expects 2 arguments - 1 provided
+      E:\Visual Studio 2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(88,33):
+      or       'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)'
+          C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(38,21):
+          'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 1 provided
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(39,36): error C2059: syntax error: ')'
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(48,20): error C3861: 'push_back': identifier not found
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(58,18): error C2039: 'getLife': is not a member of 'Asteroid'
+      C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Asteroid.h(11,7):
+      see declaration of 'Asteroid'
+  
+C:\Users\Spectral\source\repos\SpaceShooterGame\SpaceShooterGame\Player.cpp(58,30): error C2065: 'ASTEROID_HIT_TIME': undeclared identifier
