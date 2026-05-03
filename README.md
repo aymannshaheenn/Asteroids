@@ -68,9 +68,6 @@ A classic Asteroids-style arcade game built using C++ and SFML. The game include
 
 ## Controls
 
-    (Add your game controls here)
-## Controls
-
 Left Arrow - Rotate left  
 Right Arrow - Rotate right  
 Up Arrow - Thrust forward  
