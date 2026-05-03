@@ -20,26 +20,40 @@ A classic Asteroids-style arcade game built using C++ and SFML. The game include
 - SFML (Simple and Fast Multimedia Library)
 
 ## Project Structure
-
-AsteroidsGame/
-├── src/
-│   ├── main.cpp
+SpaceShooterGame/
+│
+├── Debug/
+│   └── x64/                          
+│
+├── Assets/                        
+│   ├── font.ttf
+│   └── shoot.wav
+│
+├── score.dat                      
+│
+├── Source Files/                   
+│   ├── Main.cpp
 │   ├── Game.cpp
 │   ├── Player.cpp
 │   ├── Asteroid.cpp
 │   ├── Bullet.cpp
+│   └── Physics.cpp
 │
-├── include/
-│   ├── Game.hpp
-│   ├── Player.hpp
-│   ├── Asteroid.hpp
-│   ├── Bullet.hpp
+├── Header Files/
+│   ├── Entity.h
+│   ├── Game.h
+│   ├── Global.h
+│   ├── Player.h
+│   ├── Asteroid.h
+│   ├── Bullet.h
+│   └── Physics.h
 │
-├── assets/
-│   ├── textures/
-│   ├── sounds/
+├── Project Files/
+│   ├── SpaceShooterGame.sln          
+│   ├── SpaceShooterGame.vcxproj     
+│   ├── SpaceShooterGame.vcxproj.filters
+│   └── SpaceShooterGame.vcxproj.user
 │
-├── CMakeLists.txt
 └── README.md
 
 ## Controls
