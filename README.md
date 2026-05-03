@@ -19,52 +19,56 @@ A classic Asteroids-style arcade game built using C++ and SFML. The game include
 - C++
 - SFML (Simple and Fast Multimedia Library)
 
-Space Shooter Game
-==================
+# Space Shooter Game
 
-Project Structure:
+## Project Structure
 
-SpaceShooterGame/
-|
-|- Debug/x64/                 (Build output)
-|
-|- Assets/
-|   |- font.ttf
-|   |- shoot.wav
-|
-|- Source/
-|   |- Main.cpp
-|   |- Game.cpp
-|   |- Player.cpp
-|   |- Asteroid.cpp
-|   |- Bullet.cpp
-|   |- Physics.cpp
-|
-|- Headers/
-|   |- Entity.h
-|   |- Game.h
-|   |- Global.h
-|   |- Player.h
-|   |- Asteroid.h
-|   |- Bullet.h
-|   |- Physics.h
-|
-|- score.dat
-|- SpaceShooterGame.sln
-|- SpaceShooterGame.vcxproj
-|- SpaceShooterGame.vcxproj.filters
-|- SpaceShooterGame.vcxproj.user
-|- README.md
+    SpaceShooterGame/
+    |
+    |- Debug/x64/                 (Build output)
+    |
+    |- Assets/
+    |   |- font.ttf
+    |   |- shoot.wav
+    |
+    |- Source/
+    |   |- Main.cpp
+    |   |- Game.cpp
+    |   |- Player.cpp
+    |   |- Asteroid.cpp
+    |   |- Bullet.cpp
+    |   |- Physics.cpp
+    |
+    |- Headers/
+    |   |- Entity.h
+    |   |- Game.h
+    |   |- Global.h
+    |   |- Player.h
+    |   |- Asteroid.h
+    |   |- Bullet.h
+    |   |- Physics.h
+    |
+    |- score.dat
+    |- SpaceShooterGame.sln
+    |- SpaceShooterGame.vcxproj
+    |- SpaceShooterGame.vcxproj.filters
+    |- SpaceShooterGame.vcxproj.user
+    |- README.md
 
-Files:
-Main.cpp        - Entry point
-Game.cpp/h      - Game loop & logic
-Player.cpp/h    - Player controls
-Asteroid.cpp/h  - Enemy asteroids
-Bullet.cpp/h    - Projectiles
-Physics.cpp/h   - Collision detection
-Entity.h        - Base class
-Global.h        - Constants
+## Files
+
+    Main.cpp        - Entry point
+    Game.cpp/h      - Game loop & logic
+    Player.cpp/h    - Player controls
+    Asteroid.cpp/h  - Enemy asteroids
+    Bullet.cpp/h    - Projectiles
+    Physics.cpp/h   - Collision detection
+    Entity.h        - Base class
+    Global.h        - Constants
+
+## Controls
+
+    (Add your game controls here)
 ## Controls
 
 Left Arrow - Rotate left  
