@@ -96,9 +96,6 @@ cmake ..
 make  
 
 ## Run Game
-
-./AsteroidsGame  
-
 ## Game Logic
 
 - Spaceship uses velocity-based movement with inertia
